@@ -7,7 +7,7 @@ It is application to add, update and delete tasks.
 - Install dependencies:
 
 ```shell
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 - Run application:
