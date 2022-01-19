@@ -1,11 +1,8 @@
 # Django_assignment
-# ToDo application
 
-A ToDo application with the ability to log in and register a user, create and manage tasks.
+It is application to add, update and delete tasks.
 
 ## Installation
-
-To get started with the application you need to complete following steps:
 
 - Install dependencies:
 
@@ -13,23 +10,22 @@ To get started with the application you need to complete following steps:
 $ pip install -r requirements.txt
 ```
 
-- Provide details for your PostgreSQL database in `assignment/settings.py` file to `DATABASES` variable.
-
 - Run application:
 
 ```shell
-$ python3 manage.py runserver 8000
+ python manage.py runserver 8000
 ```
 
 ## Usage
+You can use application to make your life easier via adding tasks that you need to do
 
-The application consists of two modules:
-
-- Auth - authorization module, which responsible for user authentication.
-- ToDo - ToDo module, which reponsible for managing current user's tasks.
-
-First things first you have to be logged in to use this application, that's why the authorization module will welcome you. After successful authorization you can access to your ToDo list and start adding your tasks one by one. You could also cross them out by clicking on each task. Tasks will be grouped by their status, those that finished will be in one group and those that not in another.
-
-## Example of usage
-
-This project might be useful for people who love to manage their day, because by listing all your tasks you won't forget anything. This also helps to better manage your time.
+## Example
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/78271298/150201196-371e1732-65d3-4a6b-9417-724d2db0118f.jpg" />
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/78271298/150201251-a17832ed-4aec-4fd4-9738-b9a4b55768eb.jpg" />
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/78271298/150201316-577ca47e-5b21-4b66-af73-ee724b609861.jpg" />
+</p>
